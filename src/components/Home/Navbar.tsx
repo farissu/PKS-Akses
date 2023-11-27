@@ -50,7 +50,7 @@ const Navbar = ({ mendesak }: any) => {
     document.getElementById('searchbox')?.focus();
   };
 
-  const divStyle = {
+  const divStyle: React.CSSProperties = {
     backgroundColor: "#FF5001",
     height: "70px",
     position: "relative",
