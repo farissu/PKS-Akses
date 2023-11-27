@@ -1,0 +1,24 @@
+{
+  "tenants": [
+    {
+      "name": "api",
+      "ERP_URL": "https://cf2-cnt-be-dev1.cnt.id",
+      "ERP_EMAIL": "erp@cinte.id",
+      "ERP_PASSWORD": "erpcinteid",
+      "ERP_DB": "cf2-cnt-be-dev1.cnt.id",
+      "PUBLIC_LOGO_COLOR": "https://cnt.id/logo-full.png",
+      "PUBLIC_LOGO_WHITE": "https://cnt.id/logo-full-white.png",
+      "GOOGLE_CLIENT_ID": "765306632504-h0ti5s2fttdhj46hhautgbqedqk6l0d6.apps.googleusercontent.com",
+      "GOOGLE_CLIENT_SECRET": "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",
+      "PUBLIC_MIDTRANS_CLIENT_ID": "SB-Mid-client-NXtdI0jThcz968PO",
+      "CALLBACK_URL_SIGNIN": "http://localhost:3000/akun/profile",
+      "CALLBACK_URL_SIGNOUT": "http://localhost:3000/akun"
+    },
+    {
+      "name": "web",
+      "apiUrl": "https://tenant-b-api.example.com",
+      "apiKey": "def456"
+    }
+  ],
+  "defaultTenant": "app"
+}

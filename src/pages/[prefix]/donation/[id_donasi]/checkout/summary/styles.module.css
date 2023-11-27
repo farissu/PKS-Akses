@@ -1,0 +1,75 @@
+.badan {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    max-width: 42rem;
+    min-height: 100vh;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.subBadan {
+    display: flex;
+    padding: 1rem;
+    margin-top: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-radius: 0.25rem;
+}
+
+.rataKanan {
+    text-align: right;
+}
+
+.textBesarKanan {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+}
+
+.pEmpat {
+    padding: 1rem;
+}
+
+.judulBank {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+}
+
+.hrs {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height: 0.25rem;
+}
+
+.bodynotif {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-radius: 0.25rem;
+}
+
+.rincianDonasi {
+    padding-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.paddingBottom {
+    padding-bottom: 1rem;
+}
+
+.perhatian {
+    padding-bottom: 1rem;
+    font-weight: 700;
+}
+
+.paddingTop {
+    padding-top: 2rem; 
+}
+
+.boldAja {
+    font-weight: 700; 
+}
